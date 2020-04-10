@@ -1,0 +1,47 @@
+@import "./mixins";
+
+.header-container {
+  @include container;
+}
+
+.header-logo {
+  background-color: #add8ad;
+  display: flex;
+  justify-content: space-between;
+  &__image {
+    width: 50%;
+    border: 1px solid green;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  &__sitename {
+    margin-left: 35px;
+    font-size: 23px;
+    font-weight: 900;
+    line-height: 29px;
+  }
+}
+
+.header-reklama {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  border: 1px solid green;
+  &__description {
+    width: 250px;
+    font-size: 18px;
+    border: 1px solid brown;
+    text-align: center;
+  }
+}
+
+.header-nav {
+  background-color: #add8ad;
+  border: 1px solid gray;
+  &__link {
+    padding: 20px;
+    border: 1px solid black;
+  }
+}

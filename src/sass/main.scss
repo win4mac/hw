@@ -1,0 +1,20 @@
+@import "./mixins";
+
+.main-container {
+  @include container;
+}
+.post-block {
+  border: solid 1px blue;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-grow: 0;
+  &__post {
+    padding: 25px;
+    border: 1px solid green;
+  }
+  &__menu {
+    padding: 25px;
+    border: solid 1px blue;
+  }
+}
