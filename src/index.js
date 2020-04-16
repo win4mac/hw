@@ -1,2 +1,2 @@
-// import "./jsx/index.jsx";
-import "./sass/index.scss";
+import './app/index.jsx';
+import './sass/index.scss';
