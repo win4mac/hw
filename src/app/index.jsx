@@ -31,4 +31,4 @@ class App extends React.Component {
   }
 }
 
-ReactDOM.render(<App />, document.querySelector(".react-root"));
+ReactDOM.render(<App />, document.querySelector(".body-page"));

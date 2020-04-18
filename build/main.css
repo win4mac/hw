@@ -1,8 +1,46 @@
-.page-header {
-  border: 1px solid red; }
+.page-nav {
+  min-width: 686px;
+  color: white; }
 
-.home-page {
-  background: #efefef; }
+.global-nav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  padding: 15px 15px 15px 100px; }
+  .global-nav > a {
+    text-decoration: none;
+    font-family: NavMenuFonts;
+    font-size: 16px;
+    line-height: 50px;
+    color: #fff; }
+
+.page-header {
+  background: rgba(0, 0, 0, 0.8);
+  position: relative; }
+  .page-header__content {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    height: 73px;
+    padding-bottom: 5px; }
+
+.logo {
+  padding-left: 0px;
+  padding-bottom: 15px;
+  min-width: 224px; }
+  .logo > h1 {
+    font-family: playfairdisplay;
+    font-size: 28px;
+    color: #fff; }
+
+.page-footer {
+  background: rgba(0, 0, 0, 0.9); }
+  .page-footer__content {
+    height: var(--size-footer-content); }
+
 
 
 .contact-page {
@@ -10,13 +48,16 @@
   border: 1px solid green;
   border-radius: 4px; }
 
+:root {
+  --size-footer-content: 80px; }
+
 * {
   box-sizing: border-box; }
 
 html {
   color: #111111;
-  font-size: 15px;
-  font-family: Arial, Helvetica, sans-serif; }
+  font-size: 10px;
+  font-family: roboto, NavMenuFonts, playfairdisplay; }
 
 body,
 ul,
@@ -56,10 +97,39 @@ button {
 .no-padding {
   padding: 0 !important; }
 
+.body-page {
+  min-width: 100vh;
+  min-height: calc(100vh - 120px);
+  margin: 0 auto; }
+
+.content-wrapper {
+  width: 100%;
+  padding: 0 1rem;
+  max-width: calc(900px + 2rem);
+  margin: 0 auto; }
+
 .page-content {
-  max-width: 960px;
+  min-width: 100vh;
   margin: 0 auto;
-  min-height: calc(100vh - 120px); }
+  min-height: calc(100vh - calc(var(--size-footer-content) + 80px)); }
+
+@font-face {
+  font-family: roboto;
+  src: url(fonts/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: NavMenuFonts;
+  src: url(fonts/0078f486-8e52-42c0-ad81-3c8d3d43f48e.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: playfairdisplay;
+  src: url(fonts/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgEM86xQ.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal; }
 
 
 /*# sourceMappingURL=main.css.map*/

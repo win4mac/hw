@@ -1,9 +1,10 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+import "./Footer.scss";
 
 export class Footer extends Component {
   render() {
     return (
-      <footer className='page-footer'>
+      <footer className="page-footer page-footer__content">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea dolore
           fugit, odio earum iste accusantium magnam similique repellat, non
