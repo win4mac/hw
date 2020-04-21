@@ -15,6 +15,24 @@ module.exports = {
         exclude: /node_modules/,
         loader: "babel-loader",
       },
+
+      {
+        test: /\.(png|jpg|gif|webp)$/i,
+        use: [
+          {
+            loader: "url-loader",
+          },
+        ],
+      },
+
+      {
+        test: /\.(png|jpe?g|gif|webp)$/i,
+        loader: "file-loader",
+        options: {
+          outputPath: "images",
+        },
+      },
+
       {
         test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
         use: [

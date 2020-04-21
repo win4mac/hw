@@ -2,5 +2,16 @@
   background: rgba(0, 0, 0, 0.9);
   &__content {
     height: var(--size-footer-content);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
+}
+
+.footer-nav {
+  color: white;
+}
+
+.footer-copyright {
+  color: white;
 }

@@ -39,8 +39,19 @@
 .page-footer {
   background: rgba(0, 0, 0, 0.9); }
   .page-footer__content {
-    height: var(--size-footer-content); }
+    height: var(--size-footer-content);
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
 
+.footer-nav {
+  color: white; }
+
+.footer-copyright {
+  color: white; }
+
+.home-page {
+  color: red; }
 
 
 .contact-page {
