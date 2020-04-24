@@ -9,7 +9,13 @@ export class Footer extends Component {
           <div className="footer-copyright">
             © 2023 by Annex. Proudly created with Wix.com
           </div>
-          <nav className="footer-nav"></nav>
+          <nav className="footer-nav">
+            <a href="http://twitter.com" alt="twitter">
+              <img src="../../../src/assets/img/twitter_logo.webp"></img>
+            </a>
+            <img src="../../../src/assets/img/twitter_logo.webp"></img>
+            <img src="../../../src/assets/img/twitter_logo.webp"></img>
+          </nav>
         </div>
       </footer>
     );

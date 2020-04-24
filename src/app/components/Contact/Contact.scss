@@ -1,5 +1,39 @@
-.contact-page {
-  background: #fafafa;
-  border: 1px solid green;
-  border-radius: 4px;
+.page-contact {
+  background: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 536px;
+  min-width: 100vh;
+  &__content {
+    margin: 100px 0 23px;
+    color: #fff;
+  }
+  &__descr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.contact-content {
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0 0 36px;
+  &__h1 {
+    font-family: playfairdisplay;
+    letter-spacing: 0.06em;
+    font-weight: 900;
+    font-size: 46px;
+    text-transform: uppercase;
+  }
+  &__descr {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 200;
+    letter-spacing: 0.05em;
+    line-height: 1.7em;
+  }
 }

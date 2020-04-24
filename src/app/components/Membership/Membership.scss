@@ -1,0 +1,80 @@
+.page-membership {
+  background: #fafafa;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 544px;
+  min-width: 100vh;
+  &__content {
+    margin: 100px 0 23px;
+    color: #000;
+  }
+  &__descr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.membership-content {
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__container {
+    min-width: 980px;
+  }
+  &__h1 {
+    font-family: playfairdisplay;
+    letter-spacing: 0.06em;
+    font-weight: 900;
+    font-size: 46px;
+    text-transform: uppercase;
+  }
+  &__p {
+    font-family: NavMenuFonts;
+    font-size: 15px;
+    text-align: center;
+    margin: 0 0 36px;
+  }
+  &__descr {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 33.33%;
+    margin-top: 14px;
+  }
+  &__text {
+    font-size: 15px;
+    font-family: NavMenuFonts;
+    font-weight: 200;
+    padding-left: 15px;
+  }
+  &__logo {
+    width: 56px;
+
+    & > svg {
+      width: 100%;
+      display: block;
+    }
+  }
+}
+
+.second-membership {
+  margin-top: 60px;
+
+  &__logo {
+    width: 56px;
+    transform: translate(30%, -30%);
+
+    & > svg {
+      width: 60%;
+      display: block;
+      padding-top: 14px;
+    }
+  }
+}

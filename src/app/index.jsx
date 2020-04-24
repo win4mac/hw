@@ -6,27 +6,20 @@ import { HashRouter as Router, Route, Link } from "react-router-dom";
 import { Home } from "./components/Home/Home.jsx";
 import { Shop } from "./components/Shop/Shop.jsx";
 import { Contact } from "./components/Contact/Contact.jsx";
+import { Membership } from "./components/Membership/Membership.jsx";
 
 class App extends React.Component {
   render() {
     return (
-      <Router>
-        <div className="page">
-          <Header />
-          <main>
-            <Route exact={true} path="/">
-              <Home />
-            </Route>
-            <Route path="/shop">
-              <Shop />
-            </Route>
-            <Route path="/contact">
-              <Contact />
-            </Route>
-          </main>
-          <Footer />
-        </div>
-      </Router>
+      <div className="page">
+        <Header />
+        <main>
+          <Home />
+          <Membership />
+          <Contact />
+        </main>
+        <Footer />
+      </div>
     );
   }
 }

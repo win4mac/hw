@@ -58,7 +58,7 @@ button {
 }
 
 .body-page {
-  min-width: 100vh;
+  min-width: 100vw;
   min-height: calc(100vh - 120px);
   margin: 0 auto;
 }
@@ -71,7 +71,7 @@ button {
 }
 
 .page-content {
-  min-width: 100vh;
+  min-width: 100vw;
   margin: 0 auto;
   min-height: calc(100vh - calc(var(--size-footer-content) + 80px));
 }
