@@ -17,20 +17,15 @@ module.exports = {
       },
 
       {
-        test: /\.(png|jpg|gif|webp)$/i,
+        test: /\.(png|jp(e*)g|svg|gif)$/,
         use: [
           {
-            loader: "url-loader",
+            loader: "file-loader",
+            options: {
+              name: "images/[hash]-[name].[ext]",
+            },
           },
         ],
-      },
-
-      {
-        test: /\.(png|jpe?g|gif|webp)$/i,
-        loader: "file-loader",
-        options: {
-          outputPath: "images",
-        },
       },
 
       {
