@@ -57,18 +57,35 @@
   letter-spacing: 0.1em; }
 
 .footer-logo {
+  position: relative;
   background-size: cover;
   height: 26px;
   width: 26px;
-  margin-right: 15px; }
-  .footer-logo__fb {
-    background-image: url(images/e1c9efc18eb1b112f62b1bd1c5905ed7-facebook_logo.webp); }
-  .footer-logo__twit {
-    background-image: url(images/919154010084bf47d22157ad33401ee5-twitter_logo.webp); }
-  .footer-logo__insta {
-    background-image: url(images/43cf1ecbeb07258cee086a9a6cc78969-instagram_logo.webp); }
-  .footer-logo:last-child {
-    margin-right: 0px; }
+  margin-right: 15px;
+  display: block; }
+  .footer-logo__link {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%; }
+    .footer-logo__link_fb {
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-image: url(images/e1c9efc18eb1b112f62b1bd1c5905ed7-facebook_logo.webp); }
+    .footer-logo__link_twit {
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-image: url(images/919154010084bf47d22157ad33401ee5-twitter_logo.webp); }
+    .footer-logo__link_insta {
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-image: url(images/43cf1ecbeb07258cee086a9a6cc78969-instagram_logo.webp); }
+    .footer-logo__link:last-child {
+      margin-right: 0px; }
 
 .home-page {
   background-image: url(images/919154010084bf47d22157ad33401ee5-twitter_logo.webp);

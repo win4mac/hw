@@ -1,3 +1,4 @@
+@import "./../../../sass/mixins.scss";
 .page-footer {
   background: rgba(0, 0, 0, 0.9);
   &__content {
@@ -23,20 +24,32 @@
 }
 
 .footer-logo {
+  position: relative;
   background-size: cover;
   height: 26px;
   width: 26px;
   margin-right: 15px;
-  &__fb {
-    background-image: url(./../../../images/facebook_logo.webp);
-  }
-  &__twit {
-    background-image: url(./../../../images/twitter_logo.webp);
-  }
-  &__insta {
-    background-image: url(./../../../images/instagram_logo.webp);
-  }
-  &:last-child {
-    margin-right: 0px;
+  display: block;
+  &__link {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    &_fb {
+      @include social-logo-size;
+      background-image: url("./../../../images/facebook_logo.webp");
+    }
+    &_twit {
+      @include social-logo-size;
+      background-image: url("./../../../images/twitter_logo.webp");
+    }
+    &_insta {
+      @include social-logo-size;
+      background-image: url("./../../../images/instagram_logo.webp");
+    }
+    &:last-child {
+      margin-right: 0px;
+    }
   }
 }
