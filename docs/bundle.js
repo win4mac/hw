@@ -32758,6 +32758,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Footer_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Footer.scss */ "./src/app/components/Footer/Footer.scss");
 /* harmony import */ var _Footer_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Footer_scss__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _images_facebook_logo_webp__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../../../images/facebook_logo.webp */ "./src/images/facebook_logo.webp");
+/* harmony import */ var _images_twitter_logo_webp__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../../../images/twitter_logo.webp */ "./src/images/twitter_logo.webp");
+/* harmony import */ var _images_instagram_logo_webp__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./../../../images/instagram_logo.webp */ "./src/images/instagram_logo.webp");
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -32779,6 +32782,9 @@ function _assertThisInitialized(self) { if (self === void 0) { throw new Referen
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
 
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+
+
 
 
 
@@ -32814,7 +32820,8 @@ var Footer = /*#__PURE__*/function (_Component) {
         href: "http://www.twitter.com/wix",
         target: "_blank",
         "data-content": "http://www.twitter.com/wix"
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "./docs/images/twitter_logo.webp",
         className: "footer-logo__link_twit"
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "footer-logo"
@@ -32823,7 +32830,8 @@ var Footer = /*#__PURE__*/function (_Component) {
         href: "http://www.facebook.com/wix",
         target: "_blank",
         "data-content": "http://www.facebook.com/wix"
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "./docs/images/facebook_logo.webp",
         className: "footer-logo__link_fb"
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "footer-logo"
@@ -32832,7 +32840,8 @@ var Footer = /*#__PURE__*/function (_Component) {
         href: "https://instagram.com/wix",
         target: "_blank",
         "data-content": "https://instagram.com/wix"
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "./docs/images/instagram_logo.webp",
         className: "footer-logo__link_insta"
       })))));
     }
@@ -33326,7 +33335,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Home_Home_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/Home/Home.jsx */ "./src/app/components/Home/Home.jsx");
 /* harmony import */ var _components_Contact_Contact_jsx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/Contact/Contact.jsx */ "./src/app/components/Contact/Contact.jsx");
 /* harmony import */ var _components_Membership_Membership_jsx__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/Membership/Membership.jsx */ "./src/app/components/Membership/Membership.jsx");
-/* harmony import */ var _images_2_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../images/2.jpg */ "./src/images/2.jpg");
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -33358,7 +33366,6 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 
 
 
-
 var App = /*#__PURE__*/function (_React$Component) {
   _inherits(App, _React$Component);
 
@@ -33375,9 +33382,7 @@ var App = /*#__PURE__*/function (_React$Component) {
     value: function render() {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "page"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Header_Header_jsx__WEBPACK_IMPORTED_MODULE_2__["Header"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: _images_2_jpg__WEBPACK_IMPORTED_MODULE_7__["default"]
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Home_Home_jsx__WEBPACK_IMPORTED_MODULE_4__["Home"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Membership_Membership_jsx__WEBPACK_IMPORTED_MODULE_6__["Membership"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Contact_Contact_jsx__WEBPACK_IMPORTED_MODULE_5__["Contact"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer_Footer_jsx__WEBPACK_IMPORTED_MODULE_3__["Footer"], null));
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Header_Header_jsx__WEBPACK_IMPORTED_MODULE_2__["Header"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Home_Home_jsx__WEBPACK_IMPORTED_MODULE_4__["Home"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Membership_Membership_jsx__WEBPACK_IMPORTED_MODULE_6__["Membership"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Contact_Contact_jsx__WEBPACK_IMPORTED_MODULE_5__["Contact"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer_Footer_jsx__WEBPACK_IMPORTED_MODULE_3__["Footer"], null));
     }
   }]);
 
@@ -33388,16 +33393,42 @@ react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEB
 
 /***/ }),
 
-/***/ "./src/images/2.jpg":
-/*!**************************!*\
-  !*** ./src/images/2.jpg ***!
-  \**************************/
+/***/ "./src/images/facebook_logo.webp":
+/*!***************************************!*\
+  !*** ./src/images/facebook_logo.webp ***!
+  \***************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "images/2.jpg");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "images/facebook_logo.webp");
+
+/***/ }),
+
+/***/ "./src/images/instagram_logo.webp":
+/*!****************************************!*\
+  !*** ./src/images/instagram_logo.webp ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "images/instagram_logo.webp");
+
+/***/ }),
+
+/***/ "./src/images/twitter_logo.webp":
+/*!**************************************!*\
+  !*** ./src/images/twitter_logo.webp ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "images/twitter_logo.webp");
 
 /***/ }),
 

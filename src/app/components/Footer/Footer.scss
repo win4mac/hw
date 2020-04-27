@@ -43,15 +43,15 @@
     height: 100%;
     &_fb {
       @include social-logo-size;
-      background-image: url("./../../../images/facebook_logo.webp");
+      // background-image: url("./../../../images/facebook_logo.webp");
     }
     &_twit {
       @include social-logo-size;
-      background-image: url("./../../../images/twitter_logo.webp");
+      // background-image: url("./../../../images/twitter_logo.webp");
     }
     &_insta {
       @include social-logo-size;
-      background-image: url("./../../../images/instagram_logo.webp");
+      // background-image: url("./../../../images/instagram_logo.webp");
     }
     &:last-child {
       margin-right: 0px;

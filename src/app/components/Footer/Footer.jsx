@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import "./Footer.scss";
+import "./../../../images/facebook_logo.webp";
+import "./../../../images/twitter_logo.webp";
+import "./../../../images/instagram_logo.webp";
 
 export class Footer extends Component {
   render() {
@@ -20,7 +23,10 @@ export class Footer extends Component {
                 target="_blank"
                 data-content="http://www.twitter.com/wix"
               ></a>
-              <div className="footer-logo__link_twit"></div>
+              <img
+                src="./docs/images/twitter_logo.webp"
+                className="footer-logo__link_twit"
+              ></img>
             </div>
             <div className="footer-logo">
               <a
@@ -29,7 +35,10 @@ export class Footer extends Component {
                 target="_blank"
                 data-content="http://www.facebook.com/wix"
               ></a>
-              <div className="footer-logo__link_fb"></div>
+              <img
+                src="./docs/images/facebook_logo.webp"
+                className="footer-logo__link_fb"
+              ></img>
             </div>
             <div className="footer-logo">
               <a
@@ -38,7 +47,10 @@ export class Footer extends Component {
                 target="_blank"
                 data-content="https://instagram.com/wix"
               ></a>
-              <div className="footer-logo__link_insta"></div>
+              <img
+                src="./docs/images/instagram_logo.webp"
+                className="footer-logo__link_insta"
+              ></img>
             </div>
           </nav>
         </div>
