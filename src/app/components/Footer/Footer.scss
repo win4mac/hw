@@ -10,8 +10,28 @@
 
 .footer-nav {
   color: white;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer-copyright {
   color: white;
+}
+
+.footer-logo {
+  position: relative;
+  width: 56px;
+  height: 56px;
+  border: 1px solid red;
+  &__fb {
+    position: absolute;
+    z-index: 1;
+    background-image: url("../../../images/twitter_logo.webp");
+    background-size: auto;
+  }
+  &__tw {
+    position: absolute;
+    z-index: 1;
+    background-image: url(../../../images/2.jpg);
+  }
 }

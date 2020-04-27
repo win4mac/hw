@@ -45,14 +45,30 @@
     align-items: center; }
 
 .footer-nav {
-  color: white; }
+  color: white;
+  display: flex;
+  justify-content: space-between; }
 
 .footer-copyright {
   color: white; }
 
+.footer-logo {
+  position: relative;
+  width: 56px;
+  height: 56px;
+  border: 1px solid red; }
+  .footer-logo__fb {
+    position: absolute;
+    z-index: 1;
+    background-image: url(images/919154010084bf47d22157ad33401ee5-twitter_logo.webp);
+    background-size: auto; }
+  .footer-logo__tw {
+    position: absolute;
+    z-index: 1;
+    background-image: url(images/c6312cf2519442f953336521caa1f2bb-2.jpg); }
+
 .home-page {
   color: red; }
-
 
 .page-contact {
   background: gray;

@@ -10,11 +10,13 @@ export class Footer extends Component {
             © 2023 by Annex. Proudly created with Wix.com
           </div>
           <nav className="footer-nav">
-            <a href="http://twitter.com" alt="twitter">
-              <img src="../../../src/assets/img/twitter_logo.webp"></img>
-            </a>
-            <img src="../../../src/assets/img/twitter_logo.webp"></img>
-            <img src="../../../src/assets/img/twitter_logo.webp"></img>
+            <div className="footer-logo">
+              <div className="footer-logo__fb"></div>
+            </div>
+
+            <div className="footer-logo">
+              <div className="footer-logo__tw"></div>
+            </div>
           </nav>
         </div>
       </footer>
