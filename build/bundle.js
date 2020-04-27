@@ -32989,7 +32989,7 @@ var Home = /*#__PURE__*/function (_Component) {
     key: "render",
     value: function render() {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "home-page"
+        className: "home-page content-wrapper"
       });
     }
   }]);

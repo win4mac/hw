@@ -92,8 +92,14 @@
       margin-right: 0px; }
 
 .home-page {
-  background-image: url(images/919154010084bf47d22157ad33401ee5-twitter_logo.webp);
-  height: 140px; }
+  background-image: url(images/96b03da2910c3343e64ca8613384cad7-s_4_2.webp);
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  background-position: center right;
+  background-repeat: no-repeat;
+  overflow: hidden; }
 
 .page-contact {
   background: gray;
