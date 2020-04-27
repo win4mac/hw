@@ -24,7 +24,7 @@ export class Footer extends Component {
                 data-content="http://www.twitter.com/wix"
               ></a>
               <img
-                src="./docs/images/twitter_logo.webp"
+                src="./images/twitter_logo.webp"
                 className="footer-logo__link_twit"
               ></img>
             </div>
@@ -36,7 +36,7 @@ export class Footer extends Component {
                 data-content="http://www.facebook.com/wix"
               ></a>
               <img
-                src="./docs/images/facebook_logo.webp"
+                src="./images/facebook_logo.webp"
                 className="footer-logo__link_fb"
               ></img>
             </div>
@@ -48,7 +48,7 @@ export class Footer extends Component {
                 data-content="https://instagram.com/wix"
               ></a>
               <img
-                src="./docs/images/instagram_logo.webp"
+                src="./images/instagram_logo.webp"
                 className="footer-logo__link_insta"
               ></img>
             </div>

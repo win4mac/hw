@@ -32821,7 +32821,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         target: "_blank",
         "data-content": "http://www.twitter.com/wix"
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "./docs/images/twitter_logo.webp",
+        src: "./images/twitter_logo.webp",
         className: "footer-logo__link_twit"
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "footer-logo"
@@ -32831,7 +32831,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         target: "_blank",
         "data-content": "http://www.facebook.com/wix"
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "./docs/images/facebook_logo.webp",
+        src: "./images/facebook_logo.webp",
         className: "footer-logo__link_fb"
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "footer-logo"
@@ -32841,7 +32841,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         target: "_blank",
         "data-content": "https://instagram.com/wix"
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "./docs/images/instagram_logo.webp",
+        src: "./images/instagram_logo.webp",
         className: "footer-logo__link_insta"
       })))));
     }
