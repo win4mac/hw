@@ -3,6 +3,6 @@ import "./Home.scss";
 
 export class Home extends Component {
   render() {
-    return <div className=""></div>;
+    return <div className="home-page"></div>;
   }
 }

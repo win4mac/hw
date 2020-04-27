@@ -52,23 +52,19 @@
 .footer-copyright {
   color: white; }
 
-.footer-logo {
-  position: relative;
-  width: 56px;
+.footer-logo__fb {
+  background-image: url(images/919154010084bf47d22157ad33401ee5-twitter_logo.webp);
   height: 56px;
-  border: 1px solid red; }
-  .footer-logo__fb {
-    position: absolute;
-    z-index: 1;
-    background-image: url(images/919154010084bf47d22157ad33401ee5-twitter_logo.webp);
-    background-size: auto; }
-  .footer-logo__tw {
-    position: absolute;
-    z-index: 1;
-    background-image: url(images/c6312cf2519442f953336521caa1f2bb-2.jpg); }
+  width: 56px; }
+
+.footer-logo__tw {
+  background-image: url(images/919154010084bf47d22157ad33401ee5-twitter_logo.webp);
+  height: 56px;
+  width: 56px; }
 
 .home-page {
-  color: red; }
+  background-image: url(images/919154010084bf47d22157ad33401ee5-twitter_logo.webp);
+  height: 140px; }
 
 .page-contact {
   background: gray;
