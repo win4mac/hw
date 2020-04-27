@@ -53,20 +53,18 @@
   font-family: NavMenuFonts;
   font-weight: 200;
   font-size: 14px;
-  color: #bab8b8;
+  color: var(--copyright-color);
   letter-spacing: 0.1em; }
   .footer-copyright__link {
     text-decoration: none;
     font-family: NavMenuFonts;
-    color: #bab8b8; }
+    color: var(--copyright-color); }
 
 .footer-logo {
   position: relative;
-  background-size: cover;
   height: 26px;
   width: 26px;
-  margin-right: 15px;
-  display: block; }
+  margin-right: 15px; }
   .footer-logo__link {
     display: block;
     position: absolute;
@@ -74,14 +72,17 @@
     width: 100%;
     height: 100%; }
     .footer-logo__link_fb {
+      display: block;
       width: 100%;
       height: 100%;
       background-size: cover; }
     .footer-logo__link_twit {
+      display: block;
       width: 100%;
       height: 100%;
       background-size: cover; }
     .footer-logo__link_insta {
+      display: block;
       width: 100%;
       height: 100%;
       background-size: cover; }
@@ -192,7 +193,8 @@
       padding-top: 14px; }
 
 :root {
-  --size-footer-content: 80px; }
+  --size-footer-content: 80px;
+  --copyright-color: #bab8b8; }
 
 * {
   box-sizing: border-box; }
