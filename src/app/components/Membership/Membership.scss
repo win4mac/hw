@@ -5,7 +5,7 @@
   justify-content: flex-start;
   align-items: center;
   height: 544px;
-  min-width: 100vh;
+  min-width: 100vw;
   &__content {
     margin: 100px 0 23px;
     color: #000;
@@ -45,7 +45,8 @@
     justify-content: flex-start;
     align-items: center;
     flex-wrap: nowrap;
-    width: 33.33%;
+    flex: none;
+    width: calc(33.33% - 10px);
     margin-top: 14px;
   }
   &__text {

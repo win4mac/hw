@@ -21,6 +21,11 @@
   font-size: 14px;
   color: #bab8b8;
   letter-spacing: 0.1em;
+  &__link {
+    text-decoration: none;
+    font-family: NavMenuFonts;
+    color: #bab8b8;
+  }
 }
 
 .footer-logo {

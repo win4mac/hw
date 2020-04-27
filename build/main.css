@@ -55,6 +55,10 @@
   font-size: 14px;
   color: #bab8b8;
   letter-spacing: 0.1em; }
+  .footer-copyright__link {
+    text-decoration: none;
+    font-family: NavMenuFonts;
+    color: #bab8b8; }
 
 .footer-logo {
   position: relative;
@@ -132,7 +136,7 @@
   justify-content: flex-start;
   align-items: center;
   height: 544px;
-  min-width: 100vh; }
+  min-width: 100vw; }
   .page-membership__content {
     margin: 100px 0 23px;
     color: #000; }
@@ -166,7 +170,8 @@
     justify-content: flex-start;
     align-items: center;
     flex-wrap: nowrap;
-    width: 33.33%;
+    flex: none;
+    width: calc(33.33% - 10px);
     margin-top: 14px; }
   .membership-content__text {
     font-size: 15px;
@@ -244,6 +249,7 @@ button {
   margin: 0 auto; }
 
 .content-wrapper {
+  overflow: hidden;
   width: 100%;
   padding: 0 1rem;
   max-width: calc(900px + 2rem);
