@@ -1,12 +1,14 @@
 const path = require("path");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+
 console.log(process.env.WEBPACK_MODE);
 module.exports = {
   entry: "./src/index.js",
   devtool: "source-map",
   output: {
     filename: "bundle.js",
-    path: path.resolve(__dirname, "build"),
+    path: path.resolve(__dirname, "docs"),
   },
   module: {
     rules: [
@@ -22,7 +24,8 @@ module.exports = {
           {
             loader: "file-loader",
             options: {
-              name: "images/[hash]-[name].[ext]",
+              name: "[name].[ext]",
+              outputPath: 'images'
             },
           },
         ],
@@ -52,6 +55,11 @@ module.exports = {
     ],
   },
   plugins: [
+    new HtmlWebpackPlugin({
+      title: `index`,
+      template: `./templates/index.html`,
+      filename: `index.html`
+    }),
     new MiniCssExtractPlugin({
       // Options similar to the same options in webpackOptions.output
       // both options are optional
