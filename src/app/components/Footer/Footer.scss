@@ -15,18 +15,28 @@
 }
 
 .footer-copyright {
-  color: white;
+  font-family: NavMenuFonts;
+  font-weight: 200;
+  font-size: 14px;
+  color: #bab8b8;
+  letter-spacing: 0.1em;
 }
 
 .footer-logo {
+  background-size: cover;
+  height: 26px;
+  width: 26px;
+  margin-right: 15px;
   &__fb {
-    background-image: url(./../../../images/twitter_logo.webp);
-    height: 56px;
-    width: 56px;
+    background-image: url(./../../../images/facebook_logo.webp);
   }
-  &__tw {
+  &__twit {
     background-image: url(./../../../images/twitter_logo.webp);
-    height: 56px;
-    width: 56px;
+  }
+  &__insta {
+    background-image: url(./../../../images/instagram_logo.webp);
+  }
+  &:last-child {
+    margin-right: 0px;
   }
 }

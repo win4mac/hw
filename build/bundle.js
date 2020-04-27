@@ -32804,11 +32804,17 @@ var Footer = /*#__PURE__*/function (_Component) {
         className: "footer-copyright"
       }, "\xA9 2023 by Annex. Proudly created with Wix.com"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
         className: "footer-nav"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "footer-logo__fb"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("figure", {
+        className: "footer-logo footer-logo__twit"
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "footer-logo__tw"
-      }))));
+        className: "footer-logo footer-logo__fb"
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "https://instagram.com/wix/",
+        target: "_blank",
+        "data-content": "https://instagram.com/wix/"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("figure", {
+        className: "footer-logo footer-logo__insta"
+      }, " ")))));
     }
   }]);
 

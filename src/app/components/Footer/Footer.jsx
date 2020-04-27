@@ -10,13 +10,16 @@ export class Footer extends Component {
             © 2023 by Annex. Proudly created with Wix.com
           </div>
           <nav className="footer-nav">
-            {/* <div className="footer-logo"> */}
-            <div className="footer-logo__fb"></div>
-            {/* </div> */}
+            <figure className="footer-logo footer-logo__twit"></figure>
+            <div className="footer-logo footer-logo__fb"></div>
 
-            {/* <div className="footer-logo"> */}
-            <div className="footer-logo__tw"></div>
-            {/* </div> */}
+            <a
+              href="https://instagram.com/wix/"
+              target="_blank"
+              data-content="https://instagram.com/wix/"
+            >
+              <figure className="footer-logo footer-logo__insta"> </figure>
+            </a>
           </nav>
         </div>
       </footer>
