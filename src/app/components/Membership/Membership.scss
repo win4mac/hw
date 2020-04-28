@@ -5,7 +5,7 @@
   justify-content: flex-start;
   align-items: center;
   height: 544px;
-  min-width: 100vw;
+  min-width: var(--base-min-width);
   &__content {
     margin: 100px 0 23px;
     color: #000;
@@ -15,6 +15,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-width: 980px;
   }
 }
 
@@ -24,7 +25,7 @@
   justify-content: center;
   align-items: center;
   &__container {
-    min-width: 980px;
+    width: 100%;
   }
   &__h1 {
     font-family: playfairdisplay;

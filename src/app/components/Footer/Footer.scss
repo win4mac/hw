@@ -2,6 +2,7 @@
 
 .page-footer {
   background: rgba(0, 0, 0, 0.9);
+  min-width: var(--base-min-width);
   &__content {
     height: var(--size-footer-content);
     display: flex;

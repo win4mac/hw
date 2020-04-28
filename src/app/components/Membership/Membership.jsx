@@ -4,7 +4,7 @@ import "./Membership.scss";
 export class Membership extends Component {
   render() {
     return (
-      <div className="page-membership content-wrapper">
+      <div className="page-membership">
         <div className=" page-membership__content">
           <h1 className="membership-content__h1">Membership</h1>
         </div>
@@ -12,7 +12,7 @@ export class Membership extends Component {
           <p className="membership-content__p">Become a member!</p>
         </div>
 
-        <div className="page-membership__descr ">
+        <div className="page-membership__descr">
           <div className="membership-content membership-content__container">
             <div className="membership-content__descr">
               <div className="membership-content__logo">

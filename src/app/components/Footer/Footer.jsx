@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "./Footer.scss";
-import fb_logo from "./../../../images/facebook_logo.webp";
-import tw_logo from "./../../../images/twitter_logo.webp";
-import insta_logo from "./../../../images/instagram_logo.webp";
+import fb_logo from "./../../../images/facebook_logo.png";
+import tw_logo from "./../../../images/twitter_logo.png";
+import insta_logo from "./../../../images/instagram_logo.png";
 
 export class Footer extends Component {
   render() {
