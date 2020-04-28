@@ -32656,6 +32656,98 @@ module.exports = g;
 
 /***/ }),
 
+/***/ "./src/app/components/AboutUs/AboutUs.jsx":
+/*!************************************************!*\
+  !*** ./src/app/components/AboutUs/AboutUs.jsx ***!
+  \************************************************/
+/*! exports provided: AboutUs */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AboutUs", function() { return AboutUs; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _AboutUs_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./AboutUs.scss */ "./src/app/components/AboutUs/AboutUs.scss");
+/* harmony import */ var _AboutUs_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_AboutUs_scss__WEBPACK_IMPORTED_MODULE_1__);
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _createSuper(Derived) { return function () { var Super = _getPrototypeOf(Derived), result; if (_isNativeReflectConstruct()) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+
+
+var AboutUs = /*#__PURE__*/function (_Component) {
+  _inherits(AboutUs, _Component);
+
+  var _super = _createSuper(AboutUs);
+
+  function AboutUs() {
+    _classCallCheck(this, AboutUs);
+
+    return _super.apply(this, arguments);
+  }
+
+  _createClass(AboutUs, [{
+    key: "render",
+    value: function render() {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "page-about"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "page-about__background"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "page-about__content about-content about-content__style"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "about-description"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+        className: "about-description__header about-header"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "about-header__text"
+      }, "ABOUT US"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "about-description__content"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "about-description__text"
+      }, "I'm a paragraph. Click here to add your own text and edit me. It\u2019s easy. Just click \u201CEdit Text\u201D or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I\u2019m a great place for you to tell a story and let your users know a little more about you."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "about-description__text"
+      }, "\u200B"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "about-description__text"
+      }, "This is a great space to write long text about your company and your services. You can use this space to go into a little more detail about your company. Talk about your team and what services you provide. Tell your visitors the story of how you came up with the idea for your business and what makes you different from your competitors. Make your company stand out and show your visitors who you are.")))));
+    }
+  }]);
+
+  return AboutUs;
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
+
+/***/ }),
+
+/***/ "./src/app/components/AboutUs/AboutUs.scss":
+/*!*************************************************!*\
+  !*** ./src/app/components/AboutUs/AboutUs.scss ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
 /***/ "./src/app/components/Contact/Contact.jsx":
 /*!************************************************!*\
   !*** ./src/app/components/Contact/Contact.jsx ***!
@@ -33348,9 +33440,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_Header_Header_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/Header/Header.jsx */ "./src/app/components/Header/Header.jsx");
 /* harmony import */ var _components_Home_Home_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/Home/Home.jsx */ "./src/app/components/Home/Home.jsx");
-/* harmony import */ var _components_Contact_Contact_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/Contact/Contact.jsx */ "./src/app/components/Contact/Contact.jsx");
-/* harmony import */ var _components_Membership_Membership_jsx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/Membership/Membership.jsx */ "./src/app/components/Membership/Membership.jsx");
-/* harmony import */ var _components_Footer_Footer_jsx__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/Footer/Footer.jsx */ "./src/app/components/Footer/Footer.jsx");
+/* harmony import */ var _components_AboutUs_AboutUs_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/AboutUs/AboutUs.jsx */ "./src/app/components/AboutUs/AboutUs.jsx");
+/* harmony import */ var _components_Contact_Contact_jsx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/Contact/Contact.jsx */ "./src/app/components/Contact/Contact.jsx");
+/* harmony import */ var _components_Membership_Membership_jsx__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/Membership/Membership.jsx */ "./src/app/components/Membership/Membership.jsx");
+/* harmony import */ var _components_Footer_Footer_jsx__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/Footer/Footer.jsx */ "./src/app/components/Footer/Footer.jsx");
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -33382,6 +33475,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 
 
 
+
 var App = /*#__PURE__*/function (_React$Component) {
   _inherits(App, _React$Component);
 
@@ -33398,7 +33492,7 @@ var App = /*#__PURE__*/function (_React$Component) {
     value: function render() {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "page"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Header_Header_jsx__WEBPACK_IMPORTED_MODULE_2__["Header"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Home_Home_jsx__WEBPACK_IMPORTED_MODULE_3__["Home"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Membership_Membership_jsx__WEBPACK_IMPORTED_MODULE_5__["Membership"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Contact_Contact_jsx__WEBPACK_IMPORTED_MODULE_4__["Contact"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer_Footer_jsx__WEBPACK_IMPORTED_MODULE_6__["Footer"], null));
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Header_Header_jsx__WEBPACK_IMPORTED_MODULE_2__["Header"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Home_Home_jsx__WEBPACK_IMPORTED_MODULE_3__["Home"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_AboutUs_AboutUs_jsx__WEBPACK_IMPORTED_MODULE_4__["AboutUs"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Membership_Membership_jsx__WEBPACK_IMPORTED_MODULE_6__["Membership"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Contact_Contact_jsx__WEBPACK_IMPORTED_MODULE_5__["Contact"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer_Footer_jsx__WEBPACK_IMPORTED_MODULE_7__["Footer"], null));
     }
   }]);
 

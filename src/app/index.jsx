@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import { Header } from "./components/Header/Header.jsx";
 // import { HashRouter as Router, Route, Link } from "react-router-dom";
 import { Home } from "./components/Home/Home.jsx";
+import { AboutUs } from "./components/AboutUs/AboutUs.jsx";
 import { Contact } from "./components/Contact/Contact.jsx";
 import { Membership } from "./components/Membership/Membership.jsx";
 import { Footer } from "./components/Footer/Footer.jsx";
@@ -14,6 +15,7 @@ class App extends React.Component {
         <Header />
         <main>
           <Home />
+          <AboutUs />
           <Membership />
           <Contact />
         </main>

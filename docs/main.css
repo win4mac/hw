@@ -87,6 +87,61 @@
     text-transform: uppercase;
     letter-spacing: 0.45em; }
 
+.page-about {
+  min-height: 817px;
+  height: 100vh;
+  min-width: var(--base-min-width);
+  width: 100vw; }
+  .page-about__background {
+    width: 100%;
+    height: 100%;
+    background-image: url(images/1e3643_2_s_4_2.jpg);
+    background-color: #212121;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    opacity: 0.9; }
+  .page-about__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; }
+
+.about-content {
+  margin: 123px auto;
+  width: 614px;
+  height: auto;
+  min-height: 570px; }
+  .about-content__style {
+    border: 0px solid #212121;
+    background-color: rgba(255, 255, 255, 0.99);
+    border-radius: 0; }
+
+.about-description {
+  margin: 99px 0px 51px 0px; }
+  .about-description__header {
+    font-family: playfairdisplay;
+    line-height: 1em;
+    text-align: center;
+    font-weight: 900; }
+  .about-description__content {
+    margin: 0 auto 10px;
+    width: 468px; }
+  .about-description__text {
+    font-family: NavMenuFonts;
+    font-size: 15px;
+    line-height: 1.5em;
+    text-align: center;
+    color: #000; }
+
+.about-header {
+  font-size: 46px;
+  line-height: 1.5em; }
+  .about-header__text {
+    letter-spacing: 0.06em;
+    color: #000; }
+
 .page-contact {
   background: gray;
   display: flex;
