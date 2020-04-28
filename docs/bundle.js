@@ -32709,7 +32709,7 @@ var Contact = /*#__PURE__*/function (_Component) {
     key: "render",
     value: function render() {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "page-contact "
+        className: "page-contact"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "page-contact__content"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
@@ -32758,9 +32758,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Footer_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Footer.scss */ "./src/app/components/Footer/Footer.scss");
 /* harmony import */ var _Footer_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Footer_scss__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _images_facebook_logo_webp__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../../../images/facebook_logo.webp */ "./src/images/facebook_logo.webp");
-/* harmony import */ var _images_twitter_logo_webp__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../../../images/twitter_logo.webp */ "./src/images/twitter_logo.webp");
-/* harmony import */ var _images_instagram_logo_webp__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./../../../images/instagram_logo.webp */ "./src/images/instagram_logo.webp");
+/* harmony import */ var _images_facebook_logo_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../../../images/facebook_logo.png */ "./src/images/facebook_logo.png");
+/* harmony import */ var _images_twitter_logo_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../../../images/twitter_logo.png */ "./src/images/twitter_logo.png");
+/* harmony import */ var _images_instagram_logo_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./../../../images/instagram_logo.png */ "./src/images/instagram_logo.png");
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -32821,7 +32821,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         target: "_blank",
         "data-content": "http://www.twitter.com/wix"
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: _images_twitter_logo_webp__WEBPACK_IMPORTED_MODULE_3__["default"],
+        src: _images_twitter_logo_png__WEBPACK_IMPORTED_MODULE_3__["default"],
         className: "footer-logo__link_twit"
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "footer-logo"
@@ -32831,7 +32831,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         target: "_blank",
         "data-content": "http://www.facebook.com/wix"
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: _images_facebook_logo_webp__WEBPACK_IMPORTED_MODULE_2__["default"],
+        src: _images_facebook_logo_png__WEBPACK_IMPORTED_MODULE_2__["default"],
         className: "footer-logo__link_fb"
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "footer-logo"
@@ -32841,7 +32841,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         target: "_blank",
         "data-content": "https://instagram.com/wix"
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: _images_instagram_logo_webp__WEBPACK_IMPORTED_MODULE_4__["default"],
+        src: _images_instagram_logo_png__WEBPACK_IMPORTED_MODULE_4__["default"],
         className: "footer-logo__link_insta"
       })))));
     }
@@ -32998,8 +32998,8 @@ var Home = /*#__PURE__*/function (_Component) {
     key: "render",
     value: function render() {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "home-page"
-      });
+        className: "page-home"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", null))));
     }
   }]);
 
@@ -33072,7 +33072,7 @@ var Membership = /*#__PURE__*/function (_Component) {
     key: "render",
     value: function render() {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "page-membership content-wrapper"
+        className: "page-membership"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: " page-membership__content"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
@@ -33080,7 +33080,7 @@ var Membership = /*#__PURE__*/function (_Component) {
       }, "Membership")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         className: "membership-content__p"
       }, "Become a member!")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "page-membership__descr "
+        className: "page-membership__descr"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "membership-content membership-content__container"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -33393,42 +33393,42 @@ react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEB
 
 /***/ }),
 
-/***/ "./src/images/facebook_logo.webp":
-/*!***************************************!*\
-  !*** ./src/images/facebook_logo.webp ***!
-  \***************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "images/facebook_logo.webp");
-
-/***/ }),
-
-/***/ "./src/images/instagram_logo.webp":
-/*!****************************************!*\
-  !*** ./src/images/instagram_logo.webp ***!
-  \****************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "images/instagram_logo.webp");
-
-/***/ }),
-
-/***/ "./src/images/twitter_logo.webp":
+/***/ "./src/images/facebook_logo.png":
 /*!**************************************!*\
-  !*** ./src/images/twitter_logo.webp ***!
+  !*** ./src/images/facebook_logo.png ***!
   \**************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "images/twitter_logo.webp");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "images/facebook_logo.png");
+
+/***/ }),
+
+/***/ "./src/images/instagram_logo.png":
+/*!***************************************!*\
+  !*** ./src/images/instagram_logo.png ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "images/instagram_logo.png");
+
+/***/ }),
+
+/***/ "./src/images/twitter_logo.png":
+/*!*************************************!*\
+  !*** ./src/images/twitter_logo.png ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "images/twitter_logo.png");
 
 /***/ }),
 

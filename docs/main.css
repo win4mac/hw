@@ -16,7 +16,8 @@
 
 .page-header {
   background: rgba(0, 0, 0, 0.8);
-  position: relative; }
+  position: relative;
+  min-width: var(--base-min-width); }
   .page-header__content {
     margin: 0 auto;
     display: flex;
@@ -36,8 +37,121 @@
     font-size: 28px;
     color: #fff; }
 
+.page-home {
+  min-height: 1048px;
+  width: 100%;
+  position: relative;
+  background-image: url(images/s_4_2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  opacity: 1;
+  min-width: var(--base-min-width); }
+
+.page-contact {
+  background: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 536px;
+  min-width: var(--base-min-width); }
+  .page-contact__content {
+    margin: 100px 0 23px;
+    color: #fff; }
+  .page-contact__descr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+
+.contact-content {
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0 0 36px; }
+  .contact-content__h1 {
+    font-family: playfairdisplay;
+    letter-spacing: 0.06em;
+    font-weight: 900;
+    font-size: 46px;
+    text-transform: uppercase; }
+  .contact-content__descr {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 200;
+    letter-spacing: 0.05em;
+    line-height: 1.7em; }
+
+.page-membership {
+  background: #fafafa;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 544px;
+  min-width: var(--base-min-width); }
+  .page-membership__content {
+    margin: 100px 0 23px;
+    color: #000; }
+  .page-membership__descr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 980px; }
+
+.membership-content {
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .membership-content__container {
+    width: 100%; }
+  .membership-content__h1 {
+    font-family: playfairdisplay;
+    letter-spacing: 0.06em;
+    font-weight: 900;
+    font-size: 46px;
+    text-transform: uppercase; }
+  .membership-content__p {
+    font-family: NavMenuFonts;
+    font-size: 15px;
+    text-align: center;
+    margin: 0 0 36px; }
+  .membership-content__descr {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex: none;
+    width: calc(33.33% - 10px);
+    margin-top: 14px; }
+  .membership-content__text {
+    font-size: 15px;
+    font-family: NavMenuFonts;
+    font-weight: 200;
+    padding-left: 15px; }
+  .membership-content__logo {
+    width: 56px; }
+    .membership-content__logo > svg {
+      width: 100%;
+      display: block; }
+
+.second-membership {
+  margin-top: 60px; }
+  .second-membership__logo {
+    width: 56px;
+    transform: translate(30%, -30%); }
+    .second-membership__logo > svg {
+      width: 60%;
+      display: block;
+      padding-top: 14px; }
+
 .page-footer {
-  background: rgba(0, 0, 0, 0.9); }
+  background: rgba(0, 0, 0, 0.9);
+  min-width: var(--base-min-width); }
   .page-footer__content {
     height: var(--size-footer-content);
     display: flex;
@@ -89,112 +203,10 @@
     .footer-logo__link:last-child {
       margin-right: 0px; }
 
-.home-page {
-  height: 140px;
-  background: red; }
-
-.page-contact {
-  background: gray;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  height: 536px;
-  min-width: 100vh; }
-  .page-contact__content {
-    margin: 100px 0 23px;
-    color: #fff; }
-  .page-contact__descr {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; }
-
-.contact-content {
-  text-transform: uppercase;
-  color: #fff;
-  margin: 0 0 36px; }
-  .contact-content__h1 {
-    font-family: playfairdisplay;
-    letter-spacing: 0.06em;
-    font-weight: 900;
-    font-size: 46px;
-    text-transform: uppercase; }
-  .contact-content__descr {
-    font-size: 16px;
-    font-family: sans-serif;
-    font-weight: 200;
-    letter-spacing: 0.05em;
-    line-height: 1.7em; }
-
-.page-membership {
-  background: #fafafa;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  height: 544px;
-  min-width: 100vw; }
-  .page-membership__content {
-    margin: 100px 0 23px;
-    color: #000; }
-  .page-membership__descr {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; }
-
-.membership-content {
-  color: #000;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-  .membership-content__container {
-    min-width: 980px; }
-  .membership-content__h1 {
-    font-family: playfairdisplay;
-    letter-spacing: 0.06em;
-    font-weight: 900;
-    font-size: 46px;
-    text-transform: uppercase; }
-  .membership-content__p {
-    font-family: NavMenuFonts;
-    font-size: 15px;
-    text-align: center;
-    margin: 0 0 36px; }
-  .membership-content__descr {
-    position: relative;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: nowrap;
-    flex: none;
-    width: calc(33.33% - 10px);
-    margin-top: 14px; }
-  .membership-content__text {
-    font-size: 15px;
-    font-family: NavMenuFonts;
-    font-weight: 200;
-    padding-left: 15px; }
-  .membership-content__logo {
-    width: 56px; }
-    .membership-content__logo > svg {
-      width: 100%;
-      display: block; }
-
-.second-membership {
-  margin-top: 60px; }
-  .second-membership__logo {
-    width: 56px;
-    transform: translate(30%, -30%); }
-    .second-membership__logo > svg {
-      width: 60%;
-      display: block;
-      padding-top: 14px; }
-
 :root {
   --size-footer-content: 80px;
-  --copyright-color: #bab8b8; }
+  --copyright-color: #bab8b8;
+  --base-min-width: 980px; }
 
 * {
   box-sizing: border-box; }
@@ -251,7 +263,7 @@ button {
   overflow: hidden;
   width: 100%;
   padding: 0 1rem;
-  max-width: calc(900px + 2rem);
+  max-width: calc(980px + 2rem);
   margin: 0 auto; }
 
 .page-content {
