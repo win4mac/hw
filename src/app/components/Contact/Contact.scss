@@ -5,7 +5,8 @@
   justify-content: flex-start;
   align-items: center;
   height: 536px;
-  min-width: 100vh;
+  min-width: var(--base-min-width);
+
   &__content {
     margin: 100px 0 23px;
     color: #fff;
