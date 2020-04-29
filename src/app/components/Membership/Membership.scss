@@ -28,9 +28,8 @@
     width: 100%;
   }
   &__h1 {
-    font-family: playfairdisplay;
+    font-family: var(--font-family-header-pages), serif;
     letter-spacing: 0.06em;
-    font-weight: 900;
     font-size: 46px;
     text-transform: uppercase;
   }
@@ -53,12 +52,10 @@
   &__text {
     font-size: 15px;
     font-family: NavMenuFonts;
-    font-weight: 200;
     padding-left: 15px;
   }
   &__logo {
     width: 56px;
-
     & > svg {
       width: 100%;
       display: block;
@@ -68,11 +65,9 @@
 
 .second-membership {
   margin-top: 60px;
-
   &__logo {
     width: 56px;
     transform: translate(30%, -30%);
-
     & > svg {
       width: 60%;
       display: block;

@@ -4,7 +4,7 @@ import "./Contact.scss";
 export class Contact extends Component {
   render() {
     return (
-      <div className="page-contact">
+      <div className="page-contact" id="section6">
         <div className="page-contact__content">
           <h1 className="contact-content__h1">CONTACT US</h1>
         </div>

@@ -14,5 +14,14 @@
     font-size: 16px;
     line-height: 50px;
     color: #fff;
+    &.act {
+      color: #3eccb5;
+      transition: color 0.4s ease 0s;
+    }
+    &:hover {
+      color: #3eccb5;
+      transition: color 0.4s ease 0s;
+      cursor: pointer;
+    }
   }
 }

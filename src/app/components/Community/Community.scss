@@ -1,0 +1,15 @@
+.page-community {
+    border: 1px solid red;
+    min-width: var(--base-min-width);
+    height: 100vh;
+    &__description {
+        border: 1px solid green;
+        min-height: 50%;
+        background: whitesmoke;
+    }
+    &__slides {
+        border: 1px solid green;
+        min-height: 50%;
+        background: antiquewhite;
+    }
+}

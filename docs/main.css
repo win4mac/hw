@@ -13,11 +13,23 @@
     font-size: 16px;
     line-height: 50px;
     color: #fff; }
+    .global-nav > a.act {
+      color: #3eccb5;
+      transition: color 0.4s ease 0s; }
+    .global-nav > a:hover {
+      color: #3eccb5;
+      transition: color 0.4s ease 0s;
+      cursor: pointer; }
 
 .page-header {
-  background: rgba(0, 0, 0, 0.9);
+  background: black;
   min-width: var(--base-min-width);
-  max-width: 100vw; }
+  max-width: 100vw;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1; }
   .page-header__content {
     margin: 0 auto;
     display: flex;
@@ -29,13 +41,31 @@
     padding-bottom: 5px; }
 
 .logo {
+  position: relative;
   padding-left: 0px;
   padding-bottom: 15px;
-  min-width: 224px; }
+  min-width: 224px;
+  display: flex;
+  justify-content: flex-start; }
   .logo > h1 {
-    font-family: playfairdisplay;
+    font-family: var(--font-family-header-pages), serif;
     font-size: 28px;
-    color: #fff; }
+    color: #fff;
+    letter-spacing: 0.05em; }
+  .logo__link {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%; }
+    .logo__link::hover {
+      cursor: pointer; }
+
+.logo-point {
+  font-size: var(--font-family-header-pages);
+  font-size: 33px; }
+  .logo-point__text {
+    color: #3eccb5; }
 
 .page-home {
   min-height: 1048px;
@@ -66,7 +96,7 @@
     margin-bottom: 32px; }
 
 .header-description {
-  font-family: playfairdisplay;
+  font-family: var(--font-family-header-pages);
   font-size: 119px;
   font-weight: 900;
   line-height: 1em;
@@ -121,10 +151,9 @@
 .about-description {
   margin: 99px 0px 51px 0px; }
   .about-description__header {
-    font-family: playfairdisplay;
+    font-family: var(--font-family-header-pages), serif;
     line-height: 1em;
-    text-align: center;
-    font-weight: 900; }
+    text-align: center; }
   .about-description__content {
     margin: 0 auto 10px;
     width: 468px; }
@@ -141,6 +170,19 @@
   .about-header__text {
     letter-spacing: 0.06em;
     color: #000; }
+
+.page-community {
+  border: 1px solid red;
+  min-width: var(--base-min-width);
+  height: 100vh; }
+  .page-community__description {
+    border: 1px solid green;
+    min-height: 50%;
+    background: whitesmoke; }
+  .page-community__slides {
+    border: 1px solid green;
+    min-height: 50%;
+    background: antiquewhite; }
 
 .page-contact {
   background: gray;
@@ -164,15 +206,14 @@
   color: #fff;
   margin: 0 0 36px; }
   .contact-content__h1 {
-    font-family: playfairdisplay;
+    font-family: var(--font-family-header-pages);
     letter-spacing: 0.06em;
-    font-weight: 900;
+    font-weight: 600;
     font-size: 46px;
     text-transform: uppercase; }
   .contact-content__descr {
     font-size: 16px;
-    font-family: sans-serif;
-    font-weight: 200;
+    font-family: "NavMenuFonts";
     letter-spacing: 0.05em;
     line-height: 1.7em; }
 
@@ -202,9 +243,8 @@
   .membership-content__container {
     width: 100%; }
   .membership-content__h1 {
-    font-family: playfairdisplay;
+    font-family: var(--font-family-header-pages), serif;
     letter-spacing: 0.06em;
-    font-weight: 900;
     font-size: 46px;
     text-transform: uppercase; }
   .membership-content__p {
@@ -224,7 +264,6 @@
   .membership-content__text {
     font-size: 15px;
     font-family: NavMenuFonts;
-    font-weight: 200;
     padding-left: 15px; }
   .membership-content__logo {
     width: 56px; }
@@ -299,7 +338,8 @@
 :root {
   --size-footer-content: 80px;
   --copyright-color: #bab8b8;
-  --base-min-width: 1400px; }
+  --base-min-width: 1400px;
+  --font-family-header-pages: playfair display; }
 
 * {
   box-sizing: border-box; }
@@ -365,19 +405,19 @@ button {
   min-height: calc(100vh - calc(var(--size-footer-content) + 80px)); }
 
 @font-face {
-  font-family: roboto;
+  font-family: "roboto";
   src: url(fonts/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2) format("woff2");
-  font-weight: 600;
+  font-weight: 300;
   font-style: normal; }
 
 @font-face {
-  font-family: NavMenuFonts;
+  font-family: "NavMenuFonts";
   src: url(fonts/0078f486-8e52-42c0-ad81-3c8d3d43f48e.woff2) format("woff2");
-  font-weight: 600;
+  font-weight: 300;
   font-style: normal; }
 
 @font-face {
-  font-family: playfairdisplay;
+  font-family: "playfair display";
   src: url(fonts/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgEM86xQ.woff2) format("woff2");
   font-weight: 600;
   font-style: normal; }

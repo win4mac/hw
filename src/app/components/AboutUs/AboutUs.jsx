@@ -4,7 +4,7 @@ import "./AboutUs.scss";
 export class AboutUs extends Component {
   render() {
     return (
-      <div className="page-about">
+      <div className="page-about" id="section2">
         <div className="page-about__background">
           <div className="page-about__content about-content about-content__style">
             <div className="about-description">
