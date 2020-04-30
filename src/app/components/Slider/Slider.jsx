@@ -15,11 +15,37 @@ export class SlidesPage extends Component {
     var settings = {
       dots: false,
       infinite: true,
-      slidesToShow: 3,
+      slidesToShow: 6,
       slidesToScroll: 1,
       autoplay: true,
       autoplaySpeed: 2000,
       pauseOnHover: true,
+      initialSlide: 1,
+      responsive: [
+        {
+          breakpoint: 2100,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            infinite: true,
+          },
+        },
+        {
+          breakpoint: 3600,
+          settings: {
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            initialSlide: 2,
+          },
+        },
+        {
+          breakpoint: 4080,
+          settings: {
+            slidesToShow: 5,
+            slidesToScroll: 1,
+          },
+        },
+      ],
     };
     return (
       <div className="community-slides">
