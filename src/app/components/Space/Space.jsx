@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Space.scss";
+import "./../../../images/d1c5cd_0.webp";
 
 export class Space extends Component {
   render() {
@@ -17,7 +18,24 @@ export class Space extends Component {
             </h3>
           </div>
         </div>
-        <div className=""></div>
+        <div className="page-space__images">
+          <div className="space-images">
+            <div className="space-images__content">
+              <div className="images-content bgimg__img1"></div>
+            </div>
+            <div className="space-images__content">
+              <div className="images-content bgimg__img2"></div>
+            </div>
+          </div>
+          <div className="space-images">
+            <div className="space-images__content">
+              <div className="images-content bgimg__img3"></div>
+            </div>
+            <div className="space-images__content">
+              <div className="images-content bgimg__img4"></div>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
