@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
+import Slider from "react-slick";
 import { Header } from "./components/Header/Header.jsx";
 // import { HashRouter as Router, Route, Link } from "react-router-dom";
 import { Home } from "./components/Home/Home.jsx";

@@ -27,7 +27,7 @@
     font-family: var(--font-family-header-pages);
     letter-spacing: 0.06em;
     font-weight: 600;
-    font-size: 46px;
+    font-size: var(--font-size-header-pages);
     text-transform: uppercase;
   }
   &__descr {
