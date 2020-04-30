@@ -398,8 +398,9 @@
     height: 100%; }
 
 .page-community {
+  background: #fafafa;
   min-width: var(--base-min-width);
-  height: 683px; }
+  height: 603px; }
   .page-community__description {
     height: 50%; }
   .page-community__slides {
