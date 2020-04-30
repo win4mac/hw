@@ -6,6 +6,7 @@ import { Header } from "./components/Header/Header.jsx";
 import { Home } from "./components/Home/Home.jsx";
 import { AboutUs } from "./components/AboutUs/AboutUs.jsx";
 import { Community } from "./components/Community/Community.jsx";
+import { Space } from "./components/Space/Space.jsx";
 import { Contact } from "./components/Contact/Contact.jsx";
 import { Membership } from "./components/Membership/Membership.jsx";
 import { Footer } from "./components/Footer/Footer.jsx";
@@ -20,6 +21,7 @@ class App extends React.Component {
           <Home />
           <AboutUs />
           <Community />
+          <Space />
           <Membership />
           <Contact />
         </main>
