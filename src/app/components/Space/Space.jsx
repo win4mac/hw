@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./Space.scss";
-import "./../../../images/d1c5cd_0.webp";
 
 export class Space extends Component {
   render() {

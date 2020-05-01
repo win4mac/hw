@@ -68,23 +68,32 @@
 }
 .bgimg {
   &__img1 {
-    background-image: url(./../../../images/d1c5cd_0.webp);
+    background-image: url(./../../../images/d1c5cd_0.jpg);
     background-size: cover;
     background-position: center center;
   }
   &__img2 {
-    background-image: url(./../../../images/d1c5cd_1.webp);
+    background-image: url(./../../../images/d1c5cd_1.jpg);
     background-size: cover;
     background-position: center center;
   }
   &__img3 {
-    background-image: url(./../../../images/d1c5cd_2.webp);
+    background-image: url(./../../../images/d1c5cd_2.jpg);
     background-size: cover;
     background-position: center center;
   }
   &__img4 {
-    background-image: url(./../../../images/d1c5cd_3.webp);
+    background-image: url(./../../../images/d1c5cd_3.jpg);
     background-size: cover;
     background-position: center center;
+  }
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
   }
 }
