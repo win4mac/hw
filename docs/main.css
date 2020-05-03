@@ -490,34 +490,76 @@
     width: 50%; }
 
 .images-content {
-  width: 100%;
-  min-height: 350px; }
+  position: relative;
+  min-width: 525px;
+  min-height: 395px;
+  position: relative; }
+  .images-content__back {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 48px;
+    min-height: 395px;
+    width: 100%;
+    visibility: hidden; }
+
+.content-back__text {
+  transform: translate(0%, -50%);
+  margin-bottom: 80px; }
+
+.content-back__bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 100%; }
+  .content-back__bottom_like {
+    padding-left: 50px;
+    padding-bottom: 25px; }
+
+.back-text {
+  color: #fff; }
+  .back-text__header {
+    font-family: var(--font-family-header-pages);
+    font-size: 38px;
+    font-weight: 900;
+    text-transform: uppercase; }
 
 .bgimg__img1 {
   background-image: url(images/d1c5cd_0.jpg);
-  background-size: cover;
-  background-position: center center; }
+  background-size: auto 720px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden; }
 
 .bgimg__img2 {
   background-image: url(images/d1c5cd_1.jpg);
-  background-size: cover;
-  background-position: center center; }
+  background-size: auto 720px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden; }
 
 .bgimg__img3 {
   background-image: url(images/d1c5cd_2.jpg);
-  background-size: cover;
-  background-position: center center; }
+  background-size: auto 720px;
+  background-position: top center;
+  background-repeat: no-repeat;
+  overflow: hidden; }
 
 .bgimg__img4 {
   background-image: url(images/d1c5cd_3.jpg);
-  background-size: cover;
-  background-position: center center; }
+  background-size: auto 720px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden; }
 
-@keyframes rotation {
-  0% {
-    transform: rotate(360deg); }
-  100% {
-    transform: rotate(0deg); } }
+.img-jpg:hover {
+  opacity: 1; }
+
+.img-jpg:hover .images-content__back {
+  visibility: visible;
+  background: rgba(33, 33, 33, 0.8);
+  color: #fff; }
 
 .page-contact {
   background: gray;

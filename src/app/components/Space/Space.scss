@@ -63,37 +63,89 @@
 }
 
 .images-content {
-  width: 100%;
-  min-height: 350px;
-}
-.bgimg {
-  &__img1 {
-    background-image: url(./../../../images/d1c5cd_0.jpg);
-    background-size: cover;
-    background-position: center center;
-  }
-  &__img2 {
-    background-image: url(./../../../images/d1c5cd_1.jpg);
-    background-size: cover;
-    background-position: center center;
-  }
-  &__img3 {
-    background-image: url(./../../../images/d1c5cd_2.jpg);
-    background-size: cover;
-    background-position: center center;
-  }
-  &__img4 {
-    background-image: url(./../../../images/d1c5cd_3.jpg);
-    background-size: cover;
-    background-position: center center;
+  position: relative;
+  min-width: 525px;
+  min-height: 395px;
+  position: relative;
+  &__back {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 48px;
+    min-height: 395px;
+    width: 100%;
+    visibility: hidden;
   }
 }
 
-@keyframes rotation {
-  0% {
-    transform: rotate(360deg);
+.content-back {
+  &__text {
+    transform: translate(0%, -50%);
+    margin-bottom: 80px;
   }
-  100% {
-    transform: rotate(0deg);
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    &_like {
+      padding-left: 50px;
+      padding-bottom: 25px;
+    }
+  }
+}
+
+.back-text {
+  color: #fff;
+  &__header {
+    font-family: var(--font-family-header-pages);
+    font-size: 38px;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+}
+
+.bgimg {
+  &__img1 {
+    background-image: url(./../../../images/d1c5cd_0.jpg);
+    background-size: auto 720px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+  &__img2 {
+    background-image: url(./../../../images/d1c5cd_1.jpg);
+    background-size: auto 720px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+  &__img3 {
+    background-image: url(./../../../images/d1c5cd_2.jpg);
+    background-size: auto 720px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+  &__img4 {
+    background-image: url(./../../../images/d1c5cd_3.jpg);
+    background-size: auto 720px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+}
+
+.img-jpg {
+  &:hover {
+    opacity: 1;
+  }
+  &:hover .images-content {
+    &__back {
+      visibility: visible;
+      background: rgba(33, 33, 33, 0.8);
+      color: #fff;
+    }
   }
 }
