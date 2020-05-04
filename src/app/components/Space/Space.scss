@@ -66,7 +66,6 @@
   position: relative;
   min-width: 525px;
   min-height: 395px;
-  position: relative;
   &__back {
     position: absolute;
     display: flex;
@@ -91,6 +90,10 @@
     width: 100%;
     &_like {
       padding-left: 50px;
+      padding-bottom: 25px;
+    }
+    &_link {
+      padding-right: 50px;
       padding-bottom: 25px;
     }
   }
@@ -138,6 +141,7 @@
 }
 
 .img-jpg {
+  position: relative;
   &:hover {
     opacity: 1;
   }

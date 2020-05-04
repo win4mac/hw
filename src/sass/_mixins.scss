@@ -4,3 +4,11 @@
   height: 100%;
   background-size: cover;
 }
+
+@mixin normalizeImage {
+  width: 100%;
+  & > img {
+    width: 100%;
+    display: block;
+  }
+}
