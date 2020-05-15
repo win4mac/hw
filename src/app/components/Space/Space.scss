@@ -53,19 +53,18 @@
 
 .space-images {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: nowrap;
   &__content {
-    border: 1 px solid red;
     width: 50%;
   }
 }
 
 .images-content {
   position: relative;
-  min-width: 525px;
-  min-height: 395px;
+  width: 100%;
+  height: 395px;
   &__back {
     position: absolute;
     display: flex;
@@ -73,7 +72,7 @@
     justify-content: flex-end;
     align-items: center;
     font-size: 48px;
-    min-height: 395px;
+    height: 395px;
     width: 100%;
     visibility: hidden;
   }
@@ -112,28 +111,28 @@
 .bgimg {
   &__img1 {
     background-image: url(./../../../images/d1c5cd_0.jpg);
-    background-size: auto 720px;
+    background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     overflow: hidden;
   }
   &__img2 {
     background-image: url(./../../../images/d1c5cd_1.jpg);
-    background-size: auto 720px;
+    background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     overflow: hidden;
   }
   &__img3 {
     background-image: url(./../../../images/d1c5cd_2.jpg);
-    background-size: auto 720px;
+    background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
     overflow: hidden;
   }
   &__img4 {
     background-image: url(./../../../images/d1c5cd_3.jpg);
-    background-size: auto 720px;
+    background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     overflow: hidden;

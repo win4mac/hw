@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./AboutUs.scss";
+import "./AboutUsMedia.scss";
 
 export class AboutUs extends Component {
   render() {

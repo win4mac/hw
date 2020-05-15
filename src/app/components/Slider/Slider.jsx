@@ -15,7 +15,7 @@ export class SlidesPage extends Component {
     var settings = {
       dots: false,
       infinite: true,
-      slidesToShow: 6,
+      slidesToShow: 5,
       slidesToScroll: 1,
       autoplay: true,
       autoplaySpeed: 2000,
